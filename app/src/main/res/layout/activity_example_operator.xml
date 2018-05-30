@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmaddudayef.learnrx.ExampleOperator">
+
+    <Button
+        android:id="@+id/operator1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter"/>
+
+    <Button
+        android:id="@+id/operator2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range"/>
+
+    <Button
+        android:id="@+id/operator3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chaining"/>
+
+    <Button
+        android:id="@+id/operator4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just"/>
+
+    <Button
+        android:id="@+id/operator5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From"/>
+
+    <Button
+        android:id="@+id/operator6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat"/>
+
+</LinearLayout>

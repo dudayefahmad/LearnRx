@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmaddudayef.learnrx.ExampleRX">
+
+    <Button
+        android:text="Observable - Observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicObaservable"/>
+
+    <Button
+        android:text="Disposable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicDisposable"/>
+
+    <Button
+        android:text="Operators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicOperator"/>
+
+    <Button
+        android:text="Multiple Observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicMultipleObaserver"/>
+
+    <Button
+        android:text="Cuotom Data Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicCusotmDataType"/>
+
+    <Button
+        android:text="Deep About Observables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeepObservalbes"/>
+
+    <Button
+        android:text="Deep About Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeepAboutMap"/>
+
+    <Button
+        android:text="Buffer - Debounce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bufffer_Debounce"/>
+
+    <Button
+        android:text="Concat - Merge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/concat_merge"/>
+
+    <Button
+        android:text="Rx Math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rx_math"/>
+
+
+</LinearLayout>
